@@ -1,4 +1,4 @@
-# Geopad
+# Phantom
 
 An ortholinear WASD optimized gaming keypad
 
@@ -6,12 +6,9 @@ An ortholinear WASD optimized gaming keypad
   <img src="https://i.imgur.com/5DrMXtA.jpg" alt="Geopad" width="838"/>
 </div>
 
-## Build
-You can find a timelapse video here, I will add more docs soon.
-
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=PCCydjU7Pnk"><img src="https://i.imgur.com/xdoXJ6l.gif" alt="Geopad" width="838"/></a>
-</div>
+## Design Files
+I have now added these design files on the cloud
+1. PCB (EasyEDA) - https://easyeda.com/geocipher/phantom
 
 ## Compiling
 
@@ -19,13 +16,6 @@ This keyboard supports *via* , just compile the *via* keymap through `qmk`. Or, 
 
 ```
 qmk compile -kb geopad -km via
+make geocine/phantom:via
 ```
-Once via is running you can import the keymap `firmware/keymaps/via/geopad.json`
-
-## Usage
-
-This is how I intend to position my fingers in this keypad.
-
-<div align="center">
-  <img src="https://i.imgur.com/ltgV7Dd.png" alt="Geopad Usage" width="600"/>
-</div>
+Once via is running you can import the keymap `firmware/keymaps/via/phantom.json`
