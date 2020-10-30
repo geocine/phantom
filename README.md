@@ -12,12 +12,15 @@ Design files are all on the cloud
 - [Case (Onshape)](https://cad.onshape.com/documents/dbda5693b40a7bc2ccdd639a/w/846729df4491243848816a00/e/3b0d7331e1da385ccecf5c3d)
 - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/be78f234d304392bfcd8f41bcfa9a9c5)
 
-## Compiling
+## Usage
 
-This keyboard supports *via* , just compile the *via* keymap through `qmk`. Or, flash the built `geopad_via.hex`.
+This keyboard supports *via* , just compile the *via* keymap through `qmk`. Or, flash the built `geopad_phantom_via.hex`.
 
 ```
-qmk compile -kb geopad -km via
 make geocine/phantom:via
+```
+To flash the firmware, you can either use the QMK Toolbox GUI or through this command
+```
+qmk flash -kb geocine/phantom -km via
 ```
 Once via is running you can import the keymap `firmware/keymaps/via/phantom.json`
