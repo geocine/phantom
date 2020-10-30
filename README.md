@@ -5,6 +5,9 @@ An ortholinear WASD optimized gaming keypad
 <div align="center">
   <img src="https://i.imgur.com/ouFygpE.png" alt="Geopad" width="838"/>
 </div>
+</br/>
+
+If you are looking for version 1 please check the [v1 tag](https://github.com/geocine/Geopad/tree/v1)
 
 ## Design Files
 Design files are all on the cloud

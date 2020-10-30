@@ -8,16 +8,16 @@
 #define PRODUCT_ID      0x0007
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    geocine
-#define PRODUCT         Geopad
-#define DESCRIPTION     Geopad Keypad
+#define PRODUCT         Phantom
+#define DESCRIPTION     PHantom Keypad
 
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 7
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { D3, D4, B5, C6, D7 }
-#define MATRIX_COL_PINS { B4, B1, B2, B3, D0, D1, D2 }
+#define MATRIX_ROW_PINS { E6, F5, F4, F6, B7 }
+#define MATRIX_COL_PINS { C6, B6, F7, C7, F0, F1, B0 }
 #define UNUSED_PINS
 
 /* bootloader (first top leftmost key)  */
