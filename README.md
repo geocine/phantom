@@ -3,12 +3,14 @@
 An ortholinear WASD optimized gaming keypad
 
 <div align="center">
-  <img src="https://i.imgur.com/5DrMXtA.jpg" alt="Geopad" width="838"/>
+  <img src="https://i.imgur.com/ouFygpE.png" alt="Geopad" width="838"/>
 </div>
 
 ## Design Files
-I have now added these design files on the cloud
-1. PCB (EasyEDA) - https://easyeda.com/geocipher/phantom
+Design files are all on the cloud
+- [PCB (EasyEDA)](https://easyeda.com/geocipher/phantom)
+- [Case (Onshape)](https://cad.onshape.com/documents/dbda5693b40a7bc2ccdd639a/w/846729df4491243848816a00/e/3b0d7331e1da385ccecf5c3d)
+- [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/be78f234d304392bfcd8f41bcfa9a9c5)
 
 ## Compiling
 
